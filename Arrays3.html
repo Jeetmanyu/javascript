@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Javascript demo</title>
+</head>
+<body>
+<script language = "javascript" type = "text/javascript">
+var arr = new Array(1,5,9,6,4,7);
+var num = parseInt(prompt("enter a number to be search", "Enter...."));
+var found = false;
+
+for(i = 0; i < 6; i++)
+{
+ if(arr[i] == num)
+ {
+ found = true;
+ break;
+ }
+ }
+ if(found)
+ {
+ document.write("element found...");
+ }
+ else
+ {
+ document.write("element not found...");
+ 
+ }
+
+</script>
+
+</body>
+</html>

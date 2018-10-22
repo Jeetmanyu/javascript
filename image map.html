@@ -1,0 +1,42 @@
+<html>
+<head>
+<script type="text/javascript">
+<!--
+function showTutorial(name) {
+document.myForm.stage.value = name}
+// -->
+</script>
+
+</head>
+<body>
+<form name="myForm">
+<input type="text" name="stage" size="20" />
+</form>
+<!-- Create Mapping -->
+<img src="usemap.gif" alt="HTML Map" border="0" usemap="#tutorials"/>
+<map name="tutorials">
+<area shape="poly"
+coords="74,0,113,29,98,72,52,72,38,27"
+href="http://www.tutorialspoint.com/html/index.html"  alt = "Perl Tuorial"
+target="_self"
+omMouseOver="showTutorial('html')"
+onMouseOut="showTutorial('')"/>
+
+
+<area shape="rect"
+coords="22,83,126,125"
+href="http://www.tutorialspoint.com/html/index.html"  alt="HTML Tuorial"
+target="_self"
+omMouseOver="showTutorial('html')"
+onMouseOut="showTutorial('')"/>
+
+<area shape="circle"
+coords="73,168,32"
+href="http://www.tutorialspoint.com/html/index.html" alt="HTML Tuorial"
+target="_self"
+omMouseOver="showTutorial('html')"
+onMouseOut="showTutorial('')"/>
+</map>
+</body>
+
+</html>
